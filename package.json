@@ -1,0 +1,23 @@
+{
+  "name": "flash-cards",
+  "version": "0.5.0",
+  "description": "Flash card demo app",
+  "main": "flashCards.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkRiot/Flashcard-app.git"
+  },
+  "keywords": [
+    "flashcards",
+    "oop"
+  ],
+  "author": "misha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkRiot/Flashcard-app/issues"
+  },
+  "homepage": "https://github.com/VolkRiot/Flashcard-app#readme"
+}
