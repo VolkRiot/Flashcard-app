@@ -21,8 +21,29 @@
     <div class="col s12" id="spacer"></div>
   </div>
   <div class="row">
+
+    <form id="search-form" class="col s12">
+      <div class="input-field col s4 offset-s2">
+        <input class="form-control" placeholder="Card Body" id="card-body" type="text">
+      </div>
+      <div class="input-field col s4">
+        <input class="form-control" placeholder="Answer" id="card-answer" type="text">
+      </div>
+
+      <!--Rework this submit buttons into something better.-->
+      <button class="waves-effect waves-light btn" type="submit" id="create-submit">Submit</button>
+    </form>
+
+  </div>
+  <div class="row">
     <div class="col s2"></div>
     <div class="col s8">
+
+      <div class="card-panel teal">
+          <span class="white-text">
+            Card data goes here?
+          </span>
+      </div>
 
     </div>
     <div class="col s2"></div>
@@ -33,5 +54,6 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
