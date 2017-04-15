@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 app.use(express.static(path.join(__dirname)));
-app.use("/scripts", express.static(__dirname + "/scripts"));
+app.use("assets/js", express.static(__dirname + "/assets/js"));
 
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname + 'views/index.html'));
