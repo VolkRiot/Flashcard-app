@@ -8,7 +8,7 @@ function ClozeCard(text, cloze){
 }
 
 ClozeCard.prototype.initCard = function(){
-  var re = new RegExp(this.cloze);
+  var re = new RegExp(this.cloze, 'g' );
   if(this.fullText.search(re) == -1){
     throw new Error("Sorry but it looks like '" + this.cloze + "' is not in '" + this.fullText + "'");
   }
